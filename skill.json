@@ -1,0 +1,35 @@
+{
+  "name": "genpark-autonomous-sales-demo-objection-closer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Autonomous AI video/voice sales demo presenter & live objection handling closer.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "sales-demo",
+    "objection-closer",
+    "ai-sales-agent",
+    "lead-conversion",
+    "ph-august17"
+  ],
+  "inputs": {
+    "lead_inquiry": {
+      "type": "string"
+    },
+    "product_catalog": {
+      "type": "object"
+    }
+  },
+  "outputs": {
+    "tailored_demo_pitch": {
+      "type": "string"
+    },
+    "objection_response_strategy": {
+      "type": "string"
+    },
+    "conversion_readiness_score": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
